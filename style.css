@@ -23,6 +23,53 @@ h2 {
 
 h3 {
   color:black;
-  font-family: 'Montserrat', sans-serif;  
+  font-family: 'Montserrat', sans-serif; 
+  text-decoration:none; 
 }
+
+/* navigation bar styling */
+
+#navBar{
+  position: sticky;
+  top: 0;
+  z-index:10;
+}
+
+.navbar-brand img {
+  height: 40px;
+  padding-left: 30px;
+
+}
+
+.navbar-nag li{
+  padding: 0 10px;
+}
+
+.navbar-nag li a {
+  float: right;
+  text-align: left;
+}
+
+/* hover color, change to match aesthetic */
+#navBar ul li a:hover {
+  color: #007bff
+  /* change color later */
+}
+
+/* background color of nav bar, change later */
+.navbar {
+  background: #fff;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.nav-link {
+  color: #555;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif; 
+}
+
 
