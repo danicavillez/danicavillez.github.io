@@ -5,6 +5,8 @@ h1 {
   font-size: 50px;
   padding-top:10px;
   padding-bottom:10px;
+  padding-left: 30px;
+
 }
 
 h2 {
@@ -14,16 +16,16 @@ h2 {
   letter-spacing: 1px;
   padding-top:30px;
   padding-bottom:10px;
+  text-align: center;
 }
 
- #aboutMe h3 {
-  color:black;
-  font-family: 'Montserrat', sans-serif;
-  text-decoration: none; 
-  font-size: 18px;
-}
 
-/* navigation bar styling */
+
+/* 
+************************************************************************************
+Navigation Bar
+************************************************************************************
+*/
 #navBar{
   position: sticky;
   top: 0;
@@ -55,7 +57,7 @@ h2 {
 
 /* hover color, change to match aesthetic */
 #navBar ul li a:hover {
-  color: red;
+  color:#535353;
   /* change color later */
 }
 
@@ -75,19 +77,77 @@ h2 {
   font-family: 'Montserrat', sans-serif; 
 }
 
-/* ABOUT ME STYLING */
+/* 
+************************************************************************************
+ABOUT ME
+************************************************************************************
+*/
 
 #aboutMe {
   background-color: #ffebb9;
 }
 
+#aboutMe h3 {
+  color:black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  display: block;
+}
+
 #aboutMe img{
   width: 100%;
-  max-width: 40%;
+  max-width: 30%;
   padding: 30px;
   float: left;
   height: auto;
+  vertical-align: middle;
 }
 
+#aboutMe a {
+  color:#febc11;
+}
+
+/* 
+************************************************************************************
+Connect With Me
+************************************************************************************
+*/
+#connect{
+  background-color:#ffebb9;
+}
+.contact-info {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+.contactBox {
+  padding: 20px;
+  border-radius: 10%;
+  width: 50%;
+  display: inline-block;
+}
+.card-icon {
+  color: #febc11;
+}
+.card-icon:hover {
+  color: #535353;
+}
+.contact-info .caption {
+  display: block;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* 
+************************************************************************************
+Resume
+************************************************************************************
+*/
+
+#resume {
+  background-color:#ffebb9;
+}
 
 
