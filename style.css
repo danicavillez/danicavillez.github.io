@@ -1,22 +1,12 @@
-h1 {
-  text-align: left;
-  color: #535353;
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 50px;
-  padding-top:10px;
-  padding-bottom:10px;
-  padding-left: 30px;
-
+#pageContent {
+  background-color:white;
 }
-
 h2 {
-  font-size: 20px;
+  font-size: 30px;
   color: #febc11;
   font-family: 'Josefin Sans', sans-serif;
-  letter-spacing: 1px;
-  padding-top:30px;
-  padding-bottom:10px;
   text-align: center;
+  padding-top:30px;
 }
 
 
@@ -55,13 +45,10 @@ Navigation Bar
   /* change color later */
 }
 
-/* hover color, change to match aesthetic */
 #navBar ul li a:hover {
   color:#535353;
-  /* change color later */
 }
 
-/* background color of nav bar, change later */
 .navbar {
   background: #febc11;
 }
@@ -75,6 +62,7 @@ Navigation Bar
   font-weight: 600;
   font-size: 16px;
   font-family: 'Montserrat', sans-serif; 
+  text-align: center;
 }
 
 /* 
@@ -82,10 +70,6 @@ Navigation Bar
 ABOUT ME
 ************************************************************************************
 */
-
-#aboutMe {
-  background-color: #ffebb9;
-}
 
 #aboutMe h3 {
   color:black;
@@ -95,7 +79,7 @@ ABOUT ME
 }
 
 #aboutMe img{
-  width: 100%;
+  width: 30%;
   max-width: 30%;
   padding: 30px;
   float: left;
@@ -109,12 +93,17 @@ ABOUT ME
 
 /* 
 ************************************************************************************
+why
+************************************************************************************
+*/
+
+
+/* 
+************************************************************************************
 Connect With Me
 ************************************************************************************
 */
-#connect{
-  background-color:#ffebb9;
-}
+
 .contact-info {
   text-align: center;
   display: flex;
@@ -145,9 +134,3 @@ Connect With Me
 Resume
 ************************************************************************************
 */
-
-#resume {
-  background-color:#ffebb9;
-}
-
-
