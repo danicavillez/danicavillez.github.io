@@ -3,11 +3,11 @@ html {
 }
 
 #pageContent {
-  background-color:white;
+  background-color:#DFDADE;
 }
 h2 {
   font-size: 30px;
-  color: #febc11;
+  color: #CA6D68;
   font-family: 'Josefin Sans', sans-serif;
   text-align: center;
   padding-top:30px;
@@ -29,7 +29,7 @@ Navigation Bar
   padding-top: 4px;
   padding-left: 30px;
   padding-bottom: 20px;
-  color: #535353;
+  color: #f1c1bd;
   font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -48,11 +48,11 @@ Navigation Bar
 }
 
 #navBar ul li a:hover {
-  color:#535353;
+  color:#a0b6a9;
 }
 
 .navbar {
-  background: #febc11;
+  background: #CA6D68;
 }
 
 .navbar-toggler {
@@ -76,13 +76,14 @@ ABOUT ME
 #aboutMe h3 {
   color:black;
   font-family: 'Montserrat', sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   display: block;
+  padding: 30px;
+  text-align:center;
 }
 
 #aboutMe img{
-  width: 30%;
-  max-width: 30%;
+  width: 100%;
   padding: 30px;
   float: left;
   height: auto;
@@ -90,7 +91,7 @@ ABOUT ME
 }
 
 #aboutMe a {
-  color:#febc11;
+  color:#CA6D68;
 }
 
 /* 
@@ -98,6 +99,19 @@ ABOUT ME
 why
 ************************************************************************************
 */
+#why h3 {
+  color:black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  display: block;
+  padding: 30px;
+  text-align:center;
+}
+
+#why {
+  background-color: white;
+}
+
 
 
 /* 
@@ -120,7 +134,7 @@ Connect With Me
   display: inline-block;
 }
 .card-icon {
-  color: #febc11;
+  color: #f1c1bd;
 }
 .card-icon:hover {
   color: #535353;
@@ -129,4 +143,15 @@ Connect With Me
   display: block;
   font-size: 20px;
   font-family: 'Montserrat', sans-serif;
+}
+
+/* 
+************************************************************************************
+Resume
+************************************************************************************
+*/
+
+.resumeSection {
+  padding: 30px;
+  
 }
