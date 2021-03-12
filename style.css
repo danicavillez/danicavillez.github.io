@@ -3,12 +3,12 @@ html {
 }
 
 #pageContent {
-  background-color:#DFDADE;
+  background-color:#ffffff;
 }
 h2 {
   font-size: 30px;
-  color: #CA6D68;
-  font-family: 'Josefin Sans', sans-serif;
+  color: #914747;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
   padding-top:30px;
 }
@@ -25,12 +25,13 @@ Navigation Bar
 }
 
 .navbar-brand h1 {
-  height: 40px;
+  height: 30px;
   padding-top: 4px;
   padding-left: 30px;
-  padding-bottom: 20px;
-  color: #f1c1bd;
-  font-family: 'Josefin Sans', sans-serif;
+  padding-bottom: 10px;
+  font-size: 25px;
+  color: #914747;
+  font-family: 'Roboto', sans-serif;
 }
 
 .navbar-nag li{
@@ -43,16 +44,17 @@ Navigation Bar
 }
 
 #navBar ul li a {
-  color:white;
+  color: #914747;
+  font-family: 'Roboto', sans-serif;
   /* change color later */
 }
 
 #navBar ul li a:hover {
-  color:#a0b6a9;
+  color:#d99e3a;
 }
 
 .navbar {
-  background: #CA6D68;
+  background: #ffffff;
 }
 
 .navbar-toggler {
@@ -60,9 +62,8 @@ Navigation Bar
 }
 
 .nav-link {
-  color: #fff;
-  font-weight: 600;
-  font-size: 16px;
+  color: #ffffff;
+  font-size: 18px;
   font-family: 'Montserrat', sans-serif; 
   text-align: center;
 }
@@ -75,8 +76,8 @@ ABOUT ME
 
 #aboutMe h3 {
   color:black;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
   display: block;
   padding: 30px;
   text-align:center;
@@ -91,26 +92,13 @@ ABOUT ME
 }
 
 #aboutMe a {
-  color:#CA6D68;
+  color:#914747;
 }
 
-/* 
-************************************************************************************
-why
-************************************************************************************
-*/
-#why h3 {
-  color:black;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
-  display: block;
-  padding: 30px;
-  text-align:center;
+#aboutMe a:hover {
+  color:#d99e3a;
 }
 
-#why {
-  background-color:#f1c1bd;
-}
 
 
 
@@ -137,15 +125,15 @@ Connect With Me
   display: inline-block;
 }
 .card-icon {
-  color: #f1c1bd;
+  color: #914747;
 }
 .card-icon:hover {
-  color: #a0b6a9;
+  color: #d99e3a;
 }
 .contact-info .caption {
   display: block;
-  font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* 
