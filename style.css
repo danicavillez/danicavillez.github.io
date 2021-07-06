@@ -91,6 +91,11 @@ ABOUT ME
   vertical-align: middle;
 }
 
+#aboutMe svg {
+  display: block;
+  color:beige;
+}
+
 #aboutMe a {
   color:#914747;
 }
@@ -138,18 +143,10 @@ Connect With Me
 
 /* 
 ************************************************************************************
-Resume
+moreAbout
 ************************************************************************************
 */
 
-.resumeSection {
-  padding: 30px; 
-}
-
-.resBut {
-  text-align:center;
-}
-
-.resumeSection {
-  font-family: 'Montserrat', sans-serif;
+#moreAbout{
+  text-align: center;
 }
